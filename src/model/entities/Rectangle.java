@@ -1,8 +1,9 @@
-package entities;
+package model.entities;
 
-import entities.enums.Color;
+import model.entities.enums.Color;
+import model.services.Shape;
 
-public class Rectangle extends Shape {
+public class Rectangle extends AbstractShape {
     private Double width;
     private Double height;
 

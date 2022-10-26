@@ -1,12 +1,12 @@
-package entities;
+package model.entities;
 
+import model.entities.enums.Color;
+import model.services.Shape;
 
-import entities.enums.Color;
-
-public abstract class Shape {
+public abstract class AbstractShape implements Shape {
     private Color color;
 
-    public Shape(Color color) {
+    public AbstractShape(Color color) {
         this.color = color;
     }
 
